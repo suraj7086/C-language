@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <conio.h>
 void main()
-{
+{  /*Program to find the gcd*/
    int num1,num2;
+   /* use printf function to print in c language*/
    printf("Enter the numbers to find the GCD\n");
-   scanf("%d %d",&num1,&num2);
+   scanf("%d %d",&num1,&num2); /*Take input from user*/
    printf(" Entered numbers are %d & %d\n",num1,num2);
    int m,count=0;
    if(num1>num2)
